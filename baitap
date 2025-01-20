@@ -1,0 +1,87 @@
+bai 1: 
+package hoangkhanhha_30207153706;
+
+import java.util.ArrayList;
+public class bai1 {
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        for (int i = 1; i <= 10; i++) {
+            numbers.add(i);  
+        }
+
+        
+        System.out.println("Cac phan tu trong ArrayList la: ");
+        for (int number : numbers) {
+            System.out.print(number + " ");  
+        }
+    }
+    
+}
+bai 2: 
+package hoangkhanhha_30207153706;
+import java.util.ArrayList;
+
+public class bai2 {
+    public static void main(String[] args) {
+        ArrayList<String> colors = new ArrayList<>();
+
+       
+        colors.add("Vang");
+        colors.add("Do");
+        colors.add("Tim");
+        
+
+        
+        System.out.println("Danh sach mau ban dau: " + colors);
+
+        
+        colors.set(1, "Xanh"); 
+
+        
+        System.out.println("Danh sach mau sau khi cap nhat: " + colors);
+    }
+bai 3
+package hoangkhanhha_30207153706;
+
+import java.util.ArrayList;
+public class bai3 {
+    public static void main(String[] args) {
+        ArrayList<Double> prices = new ArrayList<>();
+
+        
+        prices.add(10.05);
+        prices.add(11.40);
+        prices.add(21.44);
+        prices.add(11.30);
+        prices.add(90.11);
+
+        
+        System.out.println("Danh sach gia san pham:");
+        for (int i = 0; i < prices.size(); i++) {
+            System.out.println("Gia san pham " + (i + 1) + ": " + prices.get(i));
+        }
+    }
+}
+Bai 4
+package hoangkhanhha_30207153706;
+
+import java.util.ArrayList;
+public class bai4 {
+    public static void main(String[] args) {
+         ArrayList<String> cities = new ArrayList<>();
+
+        
+        cities.add("Korean");
+        cities.add("Tokyo");
+        cities.add("Singapore");
+        
+
+       
+        String cityToCheck = "London";
+        if (cities.contains(cityToCheck)) {
+            System.out.println("Danh sach co chua thanh pho " + cityToCheck + ".");
+        } else {
+            System.out.println("Danh sach khong chua thanh pho " + cityToCheck + ".");
+    }
+}
+}
