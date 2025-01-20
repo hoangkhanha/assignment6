@@ -1,0 +1,23 @@
+LÍ THUYẾT
+Câu 1: ArrayList là một lớp trong thư viện Java Collections Framework, thuộc gói java.util. Nó cung cấp một mảng động có thể thay đổi kích thước, cho phép thêm hoặc xóa phần tử mà không cần tạo mảng mới như với mảng thông thường.
+sự giống và khác nhau:
+Array: - Kích thước cố định, phải khai báo trước
+- Hỗ trợ cả kiểu nguyên thủy và đối tượng
+- Nhanh hơn khi làm việc với lượng dữ liệu cố định
+Arraylist: - Kích thước động, có thể thay đổi linh hoạt
+- Chỉ hỗ trợ đối tượng (sử dụng Integer thay cho int, Double thay cho double, v.v.)
+- Chậm hơn do chi phí quản lý kích thước và bộ nhớ
+Câu 2: 
+Phương thức	Chức năng
+add(E e)	Thêm phần tử vào cuối danh sách
+add(int index, E element)	Thêm phần tử tại vị trí chỉ định
+get(int index)	Lấy phần tử tại vị trí chỉ định
+set(int index, E element)	Gán phần tử mới tại vị trí chỉ định
+remove(int index)	Xóa phần tử tại vị trí chỉ định
+remove(Object o)	Xóa phần tử đầu tiên có giá trị bằng giá trị cho trước
+size()	Trả về số lượng phần tử trong danh sách
+isEmpty()	Kiểm tra danh sách có rỗng hay không
+contains(Object o)	Kiểm tra danh sách có chứa phần tử cho trước hay không
+indexOf(Object o)	Trả về chỉ số của phần tử đầu tiên có giá trị cho trước
+clear()	Xóa toàn bộ các phần tử trong danh sách
+toArray()	Chuyển đổi ArrayList thành mảng thông thường
